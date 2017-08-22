@@ -1,0 +1,53 @@
+{
+  "name": "exchange-react-test-case",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --env.prod=true",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vip09vd/exchange-react-test-case.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vip09vd/exchange-react-test-case/issues"
+  },
+  "homepage": "https://github.com/Vip09vd/exchange-react-test-case#readme",
+  "dependencies": {
+    "autoprefixer": "^7.1.2",
+    "cross-env": "^5.0.5",
+    "material-ui": "^0.19.0",
+    "node-fetch": "^1.7.2",
+    "postcss": "^5.2.13",
+    "postcss-load-config": "^1.2.0",
+    "postcss-loader": "^1.3.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "sockjs-client": "^1.1.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-1": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.5.3",
+    "react-hot-loader": "^1.3.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.4",
+    "webpack-dev-server": "^2.7.1"
+  }
+}
