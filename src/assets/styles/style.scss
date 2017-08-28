@@ -1,11 +1,36 @@
 body{
   margin: 0;
   padding: 0;
+}
+
+*{
   box-sizing: border-box;
 }
 
 .container{
   max-width: 900px;
+  padding: 15px;
   margin: auto;
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+  .exchange-field{
+    display: flex;
+    flex-direction: column;
+  }
+  .primary-btn{
+    text-align: right;
+    width: 100%;
+  }
+}
+
+.wallet{
+  display: flex;
+  align-items: center;
+  width: 100px;
+  justify-content: space-around;
+  .material-icons{
+    cursor: pointer;
+  }
 }
